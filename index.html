@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>博途优文 · 留学文书辅导团队</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+    color: #333;
+}
+
+/* 顶部 */
+.header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1f2d3d, #3a6073);
+    color: white;
+}
+
+.header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    opacity: 0.9;
+}
+
+/* 容器 */
+.container {
+    max-width: 1100px;
+    margin: -40px auto 40px;
+    padding: 20px;
+}
+
+/* 卡片 */
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+/* 标题 */
+h2 {
+    margin-bottom: 15px;
+    color: #1f2d3d;
+    border-left: 4px solid #ffba5a;
+    padding-left: 10px;
+}
+
+/* 网格 */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.grid div {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* 标签 */
+.tag {
+    display: inline-block;
+    background: #f0f4ff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+/* 列表 */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* 高亮块 */
+.highlight {
+    background: linear-gradient(135deg, #fff8e6, #fff3cc);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* 按钮 */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 26px;
+    background: linear-gradient(135deg, #ffba5a, #ff8c42);
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+/* 淡入动画 */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 延迟 */
+.delay1 { animation-delay: 0.2s; }
+.delay2 { animation-delay: 0.4s; }
+.delay3 { animation-delay: 0.6s; }
+
+@media (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>博途优文</h1>
+    <p>博士护航 · 高端留学文书辅导</p>
+</div>
+
+<div class="container">
+
+<div class="card fade-in">
+    <h2>🎓 团队简介</h2>
+    <p>
+        我们是一支由全球顶尖高校博士组成的学术型文书团队，
+        从招生评审视角出发，打造高质量申请材料。
+    </p>
+</div>
+
+<div class="card fade-in delay1">
+    <h2>🌍 学术背景</h2>
+    <div class="grid">
+        <div>
+            <span class="tag">牛津大学</span>
+            <span class="tag">剑桥大学</span>
+            <span class="tag">帝国理工</span>
+            <span class="tag">杜克大学</span>
+        </div>
+        <div>
+            <span class="tag">港科大</span>
+            <span class="tag">港理工</span>
+            <span class="tag">港城大</span>
+            <span class="tag">东京大学</span>
+        </div>
+    </div>
+</div>
+
+<div class="card fade-in delay2">
+    <h2>💡 核心优势</h2>
+    <ul>
+        <li>学术评审视角优化文书</li>
+        <li>多学科博士支持</li>
+        <li>个性化深度打磨</li>
+        <li>推荐信策略指导</li>
+    </ul>
+</div>
+
+<div class="card fade-in delay3">
+    <h2>🤝 服务模式</h2>
+    <div class="highlight">
+        由具备高校教职背景（副教授级别）的成员统筹，
+        全程一对一跟进申请策略与文书质量。
+    </div>
+    <a href="#" class="button">咨询我们</a>
+</div>
+
+</div>
+
+</body>
+</html>
